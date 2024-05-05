@@ -1,6 +1,6 @@
 # Pokedex
 
-Hola!! este repositorio contiene una función de Python (`visualizar_pokemon`) que visualiza la información de un Pokémon almacenada en un archivo JSON. La función toma el nombre del Pokémon como argumento y muestra su nombre, imagen, peso, altura, movimientos, habilidades y tipos.
+Hola!! este repositorio contiene codigo escrito en python que su funcion es conectarse a una API en este caso de pokemones para mostrar carateristicas como: nombre, peso, altura, movimientos, habilidades, tipos y una imagen del pokemon.
 
 ### Requisitos
 
@@ -8,39 +8,16 @@ Hola!! este repositorio contiene una función de Python (`visualizar_pokemon`) q
 
 ### Uso
 
-Para utilizar la función, sigue estos pasos:
+Para utilizar el codigo solo copia y pega este repositorio en tu ordenador.
 
-1. Clona este repositorio en tu ordenador.
-2. Guarda la información del Pokémon que quieras visualizar en un archivo JSON en la carpeta `pokedex`. El archivo JSON debe tener el siguiente formato:
-
-###json
-{
-  "nombre": "nombre_del_pokemon",
-  "imagen": "url_de_la_imagen_del_pokemon",
-  "peso": "peso_del_pokemon_en_kg",
-  "altura": "altura_del_pokemon_en_m",
-  "movimientos": ["lista", "de", "movimientos"],
-  "habilidades": ["lista", "de", "habilidades"],
-  "tipos": ["lista", "de", "tipos"]
-}
-
-3. En un terminal, navega hasta el directorio donde hayas clonado el repositorio y ejecuta el siguiente comando:
-
-       python visualizar_pokemon.py nombre_del_pokemon
-
-Sustituye `nombre_del_pokemon` por el nombre del Pokémon cuyo archivo JSON quieres visualizar.
-
-### Ejemplo
-
+### Ejemplo #1
 
 ###Picachu
 ![image](https://github.com/leoGSierra/Pokedex/assets/159668138/85aa64e1-e69d-4d07-9b82-cc3995ffbb5e)
 ![image](https://github.com/leoGSierra/Pokedex/assets/159668138/80da101e-f18f-4ea8-a232-249a031a6dd2)
 ![image](https://github.com/leoGSierra/Pokedex/assets/159668138/8b847260-67dd-4416-b6b6-fdcab3662087)
 
-Por ejemplo, para visualizar la información del Pokémon Pikachu, puedes ejecutar el siguiente comando:
-
-      python visualizar_pokemon.py pikachu
+###El codigo creara una carpeta llamada pokedex donde guardara los datos del pokemon sobre el cual se hizo la busqueda.
 
 Esto mostrará la siguiente información:
 
@@ -58,7 +35,8 @@ Esto mostrará la siguiente información:
  - Electricidad Estática
 **Tipos:**
  - Eléctrico
-
+   
+###Ejemplo #2
    
 ###Charmander
 ![image](https://github.com/leoGSierra/Pokedex/assets/159668138/330847e9-5c32-4cf3-864b-73195371247b)
@@ -67,5 +45,5 @@ Esto mostrará la siguiente información:
 
 ###Refelxiones del bootcamp
 
-Este curso me ah enseñado a como usar una API publica, como extraer datos y guardarlos, el proceso fue un poco divertido ya que se uso una API de pokemones, la verdad fue algo muy interesante, agradesco a mi profesora por sus enseñansas, espero aprender mucho mas. :)
+Este curso me ah enseñado a como usar una API publica, como extraer datos y guardarlos, el proceso fue un poco divertido ya que se uso una API de pokemones, la verdad fue algo muy interesante, agradesco a mi profesora por sus enseñansas, espero seguir aprendiendo mucho mas. :)
 
